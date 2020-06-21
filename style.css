@@ -1,0 +1,329 @@
+body {
+    font-family: 'Sintony', sans-serif;;
+    color: black;
+
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+p {
+    line-height: 1.9em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: black;
+}
+.menu {
+    
+    margin-top: 30px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    
+}
+
+.menu__item {
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.menu__item a {
+    color: #2c465a;
+    text-transform: uppercase;
+}
+
+.cta {
+    background: #fea10e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 12px 0;
+    display:block;
+    cursor: pointer;
+    width: 200px;
+    border: 0;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.cta:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.book__icon {
+    background: url('../img/order.png');
+    width: 21px;
+    height: 17px;
+    display: block;
+    margin-right: 13px;
+    margin-top: 4px;
+}
+
+.main-header {
+    padding: 20px 0;
+}
+
+.offer {
+    background: url('../img/first-bg.png') no-repeat center top;
+    height: 570px;
+    }
+
+.title {
+    padding: 210px 0;
+
+}
+
+.title__heading {
+    font-size: 60px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    }
+.title__heading1 {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 500;
+}
+ 
+
+.title__desc {
+    font-family: 'Big Shoulders Display', cursive;
+    
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.title__desc span {
+    color: white;
+    
+}
+
+.call {
+    background: #a8a8a8;
+    border-bottom: 1px solid #dde3e7;
+    padding: 30px 0;
+}
+
+.phone {
+    width: 500px;
+
+}
+
+.phone__text {
+    background: url('../img/phone.png') no-repeat left center;
+    color: #ad0e16;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 200px;
+    padding-left: 56px;
+    padding-top: 5px;
+}
+
+.phone__text span {
+    font-size: 16px;
+    margin-top: -4px;
+    display: block;
+}
+
+.phone__digits {
+    color: #000000;
+    font-size: 32px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: #2c465a;
+    margin-left: 42px;
+    margin-top: -1px;
+}
+
+.about {
+    padding: 50px 0 50px;
+}
+.history {
+    margin-top: 60px;
+}
+
+.history__title {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.history__text {
+    font-size: 24px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.history__feedback {
+    color: grey;
+    font-size: 14px;
+}
+
+.history__button {
+    width: 148px;
+    margin-top: 48px;
+}
+
+
+.food-images__item {
+    margin-bottom: 10px;
+    width: 230px;
+    height: 220px;
+
+}
+.food-images-down {
+    margin-top: 50px;
+}
+.special {
+    background: url('../img/third-bg.jpg') no-repeat center top;
+    padding-top: 80px;
+}
+.special-title {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.food {
+    text-align: center;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.food__img {
+    margin-bottom: 45px;
+    width: 450px;
+    height: 450px;
+}
+.food__title {
+    font-size: 22px;
+    margin-bottom: 40px;
+    display: block;
+    
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+
+.food__details{
+    border-top: 1px solid grey;
+    margin: 0 25px;
+    padding-top: 18px;
+    text-align: left;
+    padding-bottom: 18px;
+}
+
+.food__del {
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 78px;
+    border-right: 1px solid grey;
+    margin-right: 18px;
+    font-weight: 700;
+}
+.food__del span {
+    color: aqua;
+    display: block;
+}
+
+.food__phone {
+    font-size: 26px;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+.food__price {
+    font-size: 30px;
+    color: yellow;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+.footer {
+    background: #373844;
+    color: #93989e;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 72px 106px;
+}
+
+.socials {
+
+}
+
+.socials__item a {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: block;
+}
+.socials__item_fb a {
+    background: #3b5998 url('../img/fb.png') no-repeat center center;
+
+}
+.socials__item_tw a {
+    background: blue url('../img/tw.png') no-repeat center center;
+    margin: 0 7px;
+}
+.socials__item_g a {
+    background: orange url('../img/g.png') no-repeat center center;
+    
+}
+.line {
+    background: grey;
+    height: 1px;
+    margin-top: 7px;
+    margin-top: 50px;
+}
+.credits {
+    text-align: center;
+    margin-top: 43px;
+}
+.modal12 {
+    display: none;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.modal12__overlay {
+    background: rgba(0,0,0,0,8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.modal12__body {
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px;
+    background: white;
+}
+
+.show {
+    display: block !important;
+}
