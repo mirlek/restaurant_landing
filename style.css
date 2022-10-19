@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .book__icon {
-    background: url('../img/order.png');
+    background: url('../restaurant_landing/img/order.png');
     width: 21px;
     height: 17px;
     display: block;
@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .offer {
-    background: url('../img/first-bg.png') no-repeat center top;
+    background: url('../restaurant_landing/img/first-bg.png') no-repeat center top;
     height: 570px;
     }
 
@@ -125,7 +125,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .phone__text {
-    background: url('../img/phone.png') no-repeat left center;
+    background: url('../restaurant_landing/img/phone.png') no-repeat left center;
     color: #ad0e16;
     font-size: 14px;
     text-transform: uppercase;
@@ -189,7 +189,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 50px;
 }
 .special {
-    background: url('../img/third-bg.jpg') no-repeat center top;
+    background: url('../restaurant_landing/img/third-bg.jpg') no-repeat center top;
     padding-top: 50px;
 }
 .special-title {
@@ -272,15 +272,15 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
 }
 .socials__item_fb a {
-    background: #3b5998 url('../img/fb.png') no-repeat center center;
+    background: #3b5998 url('../restaurant_landing/img/fb.png') no-repeat center center;
 
 }
 .socials__item_tw a {
-    background: blue url('../img/tw.png') no-repeat center center;
+    background: blue url('../restaurant_landing/img/tw.png') no-repeat center center;
     margin: 0 7px;
 }
 .socials__item_g a {
-    background: orange url('../img/g.png') no-repeat center center;
+    background: orange url('../restaurant_landing/img/g.png') no-repeat center center;
     
 }
 .line {
